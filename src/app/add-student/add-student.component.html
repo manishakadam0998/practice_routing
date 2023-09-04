@@ -1,0 +1,16 @@
+<p>add-student works!</p>
+<div class="container w-50  border shadow mt-5">
+    <form [formGroup]="studentForm"  (ngSubmit)="add()">
+       
+        <div class="mb-3">
+          <label for="id1" class="form-label">studentName</label>
+          <input type="text" class="form-control" id="id1"  name="sName" formControlName="sName">
+        </div>
+        <div class="mb-3">
+            <label for="id2" class="form-label">roll no</label>
+            <input type="text" class="form-control" id="id2" name="rollno" formControlName="rollno">
+          </div>
+       
+        <button type="submit" class="btn btn-primary" routerLink="/add-student" >std submit</button>
+      </form>
+    </div>

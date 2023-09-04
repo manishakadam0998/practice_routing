@@ -1,0 +1,25 @@
+<p>student-details works!</p>
+<p>college works!</p>
+<div class="container">
+<table class="table table-border">
+    <thead>
+      <tr>
+       
+        <th scope="col">student name</th>
+        <th scope="col">roll number</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor=" let item of StudentData">
+        <td>{{item.sName}}</td>
+        <td>{{item.rollno}}</td>
+      </tr>
+      
+    </tbody>
+  </table>
+  <button type="submit" class="btn btn-primary" routerLink="/add-student" >add</button>
+  <button type="submit" class="btn btn-primary" routerLink="/student" >back</button>
+
+
+
+</div>

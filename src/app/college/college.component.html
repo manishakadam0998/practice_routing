@@ -1,0 +1,27 @@
+<p>college works!</p>
+<div>
+<form action="">
+<div class="container">
+<table class="table table-border">
+    <thead>
+      <tr>
+        <th scope="col">class</th>
+        <th scope="col">teacher</th>
+        <th scope="col">student count</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor=" let item of collegeData">
+        <td>{{item.class}}</td>
+        <td>{{item.tname}}</td>
+
+        <td routerLink="/student-details">{{item.studv  }}</td>
+      </tr>
+      
+    </tbody>
+  </table>
+  <button class="btn btn-primary" routerLink="/add-teacher">update</button>
+  <button class="btn btn-primary" routerLink="/student-details">student</button>
+
+</div>
+  </form>

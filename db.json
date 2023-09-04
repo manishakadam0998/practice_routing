@@ -1,0 +1,78 @@
+{
+  "students": [
+    {
+      "sName": "manisha",
+      "rollno": "1",
+      "id": 1
+    },
+    {
+      "sName": "kajal",
+      "rollno": "22",
+      "id": 2
+    },
+    {
+      "sName": "ashish",
+      "rollno": "33",
+      "id": 3
+    },
+    {
+      "sName": "sai",
+      "rollno": "2",
+      "id": 4
+    },
+    {
+      "sName": "sam",
+      "rollno": "22",
+      "id": 5
+    },
+    {
+      "sName": "vaidu",
+      "rollno": "33",
+      "id": 6
+    }
+  ],
+  "teacher": [
+    {
+      "class": "2",
+      "tname": "as",
+      "studv": "22",
+      "id": 1
+    },
+    {
+      "class": "l",
+      "tname": "k",
+      "studv": "0",
+      "id": 2
+    },
+    {
+      "class": "angular",
+      "tname": "amol sir",
+      "studv": "2",
+      "id": 3
+    },
+    {
+      "class": "2",
+      "tname": "rk",
+      "studv": "22",
+      "id": 4
+    },
+    {
+      "class": "2",
+      "tname": "-",
+      "studv": "mmm",
+      "id": 5
+    },
+    {
+      "class": "3",
+      "tname": "kk",
+      "studv": "3",
+      "id": 6
+    },
+    {
+      "class": "",
+      "tname": "",
+      "studv": "",
+      "id": 7
+    }
+  ]
+}
